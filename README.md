@@ -110,19 +110,38 @@ To interact with your deployed smart contract, complete the following steps:
 
 ## Execution results
 Deploy contract
+![alt=“”](Execution_Results/setacc.png)
+
+
 Sets accounts 
 ![alt=“”](Execution_Results/setacc.png)
 
+Selecting deposit amounts
+![alt=“”](Execution_Results/depositing.png)
+
 Deposit Ether (in wei and ether)
-![alt=“”](Execution_Results/deposit_1eth_wei.png)
-![alt=“”](Execution_Results/deposit_5eth_wei.png)
-![alt=“”](Execution_Results/deposit_10eth_wei.png)
+![alt=“”](Execution_Results/deposit1ethwei.png)
+![alt=“”](Execution_Results/deposit10ethwei.png)
 
-Once all the different deposits are done, then we withdraw 10eth to account1(i think i typed 5 in the screenshot but re did it later as 10 shown below).  
-![alt=“”](Execution_Results/withdraw_5acc1.png)
+Select 5 Eth
+![alt=“”](Execution_Results/5ether.png)
+![alt=“”](Execution_Results/deposit5ether.png)
 
-We then use the other functions to check balances, last address to withdraw and the last withdrawed amount.
-![alt=“”](Execution_Results/otherfunctions_for_verifying.png)
+Once all the different deposits are done, then we withdraw 5eth to account1:  
+![alt=“”](Execution_Results/withdraw5eth.png)
+it worked
+![alt=“”](Execution_Results/withdrawsuccessful.png)
+
+Then 10 to account 2:
+![alt=“”](Execution_Results/withdraw10eth.png)
+![alt=“”](Execution_Results/withdraw2successful.png)
+
+
+
+
+We check balances of the contract (make sure the total woithdrawn adds up and is correct), then check last address to withdraw and the last withdrawed amount.
+![alt=“”](Execution_Results/totalcontractbal.png)
+![alt=“”](Execution_Results/otherfunctionsverify.png)
 
 
 
