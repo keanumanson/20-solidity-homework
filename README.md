@@ -1,4 +1,5 @@
 # Unit 20 - "Joint Savings Account"
+## Execution results notes i added at the bottom of the readme!!
 
 ![alt=“”](Images/20-5-challenge-image.png)
 
@@ -106,6 +107,24 @@ To interact with your deployed smart contract, complete the following steps:
 * Submit the link to your GitHub repo on Bootcamp Spot.
 
 ---
+
+## Execution results
+Deploy contract
+Sets accounts 
+![alt=“”](Execution_Results/setacc.png)
+
+Deposit Ether (in wei and ether)
+![alt=“”](Execution_Results/deposit_1eth_wei.png)
+![alt=“”](Execution_Results/deposit_5eth_wei.png)
+![alt=“”](Execution_Results/deposit_10eth_wei.png)
+
+Once all the different deposits are done, then we withdraw 10eth to account1(i think i typed 5 in the screenshot but re did it later as 10 shown below).  
+![alt=“”](Execution_Results/withdraw_5acc1.png)
+
+We then use the other functions to check balances, last address to withdraw and the last withdrawed amount.
+![alt=“”](Execution_Results/otherfunctions_for_verifying.png)
+
+
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
